@@ -1,0 +1,131 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #e0e4a6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 50px 0;
+}
+
+
+.profile-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-area img {
+    border-radius: 10px;
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.intro-text {
+    background-color: #f9f9f9;
+    padding: 15px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+    background-color: #333;
+    padding: 10px 0; 
+    text-align: center; 
+}
+
+header nav button {
+    background-color: #444; 
+    color: white; 
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+header nav button:hover {
+    background-color: #555;
+}
+
+.resume-container {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.resume-container iframe {
+    width: 45%;
+    height: 700px;
+    border: none;
+    display: block;
+}
+
+.skills-interests {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+}
+.qualifications-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.resume-container, .skills-interests {
+    flex: 1;
+    margin: 10px;
+    max-width: 800px;
+}
+
+.container {
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.qualifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.event {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
