@@ -40,27 +40,27 @@ body {
 }
 
 header {
-    background-color: #333; /* Dark background for the header */
-    padding: 10px 0; /* Padding around the buttons */
-    text-align: center; /* Center align the buttons */
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
 }
 
 header nav button {
-    background-color: #444; /* Button background color */
-    color: white; /* Text color */
+    background-color: #444;
+    color: white;
     border: none;
     padding: 10px 15px;
-    margin: 0 5px; /* Spacing between buttons */
+    margin: 0 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block; /* Display buttons in a line */
+    display: inline-block; 
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    transition: background-color 0.3s;
 }
 
 header nav button:hover {
-    background-color: #555; /* Button hover color */
+    background-color: #555;
 }
 
 .resume-container {
@@ -68,34 +68,26 @@ header nav button:hover {
     padding: 20px 0;
 }
 
-.resume-container iframe {
-    width: 45%; /* Adjust the width as needed for readability */
-    height: 700px; /* Adjust the height as needed */
-    border: none;
-    display: block;
-}
-
 .skills-interests {
     background-color: #f9f9f9;
-    padding: 20px; /* Padding inside the box */
-    border-radius: 10px; /* Rounded corners */
-    margin-top: 20px; /* Space above the box */
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    /* Other styles as needed */
     max-width: 600px;
-    margin-left: auto; /* Pushes the box to the right */
-    align-self: right; /* Aligns the box vertically as you want */
+    margin-left: auto; 
+    align-self: right; 
 }
 
 .qualifications-container {
     display: flex;
-    justify-content: space-between; /* This spaces out the child elements */
-    align-items: flex-start; /* Aligns items to the top */
+    justify-content: space-between; 
+    align-items: flex-start; 
 }
 
 .resume-container, .skills-interests {
-    flex: 1; /* Causes both divs to take up equal space */
-    margin: 10px; /* Optional: adds some space around each box */
+    flex: 1; 
+    margin: 10px;
 }
 
  .event {
@@ -108,15 +100,19 @@ header nav button:hover {
 
 .qualifications-container {
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line if not enough space */
-    justify-content: space-between; /* Adjusts space between items */
-    align-items: flex-start; /* Aligns items to the top */
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: flex-start; 
 }
 
 .event {
-    flex: 1; /* Each box will grow to fill the space */
-    margin: 10px; /* Adds margin around each box */
-    max-width: calc(33% - 20px); /* Adjust the width of each box */
-    /* Other styles... */
+    flex: 1;
+    margin: 10px; 
+    max-width: calc(33% - 20px); 
 }
 
+
+.interest-description {
+    font-size: 0.9em; 
+    color: #666;
+}

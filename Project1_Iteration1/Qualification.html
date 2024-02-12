@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qualifications - Dhiraj Rishi Atmakuri</title>
-    <link rel="stylesheet" href="background.css">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <title>Technical Portfolio - Dhiraj Rishi Atmakuri</title>
+    <link id="themeStyle" rel="stylesheet" href="background.css">
 </head>
+
 <body>
     <header>
         <header>
             <nav>
-                <button onclick="location.href='Iteration1.html'">Landing Page</button>
+                <button onclick="location.href='index.html'">Landing Page</button>
                 <button onclick="location.href='technical.html'">Technical Portfolio</button>
                 <button onclick="location.href='Qualification.html'">Qualifications</button>
                 <button onclick="location.href='Service.html'">Service</button>
                 <button onclick="location.href='AIpage.html'">AI-Generated Page</button>
+                <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
             </nav>
-        </header>  
+        </header>
     </header>
 
     <section id="qualifications">
-        <div class="container">
-            <div class="resume-container">
-                <iframe src="Dhiraj_Rishi_Atmakuri_Resume.pdf" title="My Resume"></iframe>
-            </div>
-        </div>
-
         <div class="skills-interests">
             <h3>Skills and Interests</h3>
             <p>Here are my key skills:</p>
@@ -36,12 +33,18 @@
             </ul>
             <p>Areas of Interest:</p>
             <ul>
-                <li><a href="https://brainstation.io/career-guides/what-is-web-development" target="_blank">Web Development</a></li>
+                <li><a href="https://brainstation.io/career-guides/what-is-web-development" target="_blank">Web Development </a>
                 <li><a href="https://www.ibm.com/topics/machine-learning" target="_blank">Machine Learning</a></li>
                 <li><a href="https://www.snhu.edu/about-us/newsroom/stem/what-is-cyber-security#:~:text=According%20to%20the%20Cybersecurity%20and,integrity%20and%20availability%20of%20information.%22" target="_blank">Cybersecurity</a></li>
             </ul>
+
+            <div class="resume-image">
+                <img src="resume.jpg" alt="Dhiraj Rishi Atmakuri's Resume" style="max-width:100%; height:auto;">
+            </div>
+            
         </div>
-    </div>
     </section>
+
+    <script src="functions.js"></script>
 </body>
 </html>

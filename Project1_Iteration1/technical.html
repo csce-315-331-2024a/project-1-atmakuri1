@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta viewport="width=device-width, initial-scale=1.0">
     <title>Technical Portfolio - Dhiraj Rishi Atmakuri</title>
-    <link rel="stylesheet" href="background.css">
+    <link id="themeStyle" rel="stylesheet" href="background.css">
 </head>
 
 <body>
     <header>
         <header>
             <nav>
-                <button onclick="location.href='Iteration1.html'">Landing Page</button>
+                <button onclick="location.href='index.html'">Landing Page</button>
                 <button onclick="location.href='technical.html'">Technical Portfolio</button>
                 <button onclick="location.href='Qualification.html'">Qualifications</button>
                 <button onclick="location.href='Service.html'">Service</button>
                 <button onclick="location.href='AIpage.html'">AI-Generated Page</button>
+                <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
             </nav>
         </header>
     </header>
@@ -26,13 +27,21 @@
             <div class="event">
                 <h3>CSCE 121: Dungeon Crawler</h3>
                 <p>I developed a text-based game using C++, focusing on seamless code integration and efficient. I engineered complex game mechanics, including character movement, collision detection, and treasure collection, utilizing the Standard Template Library (STL). Employing object-oriented design patterns, I optimized the code structure for modularity. Additionally, I incorporated the C++ File I/O library to enable the smooth loading of dungeon levels from external files, enhancing the game's flexibility. Proficient in C++ programming, I showcased expertise in dynamic memory management, polymorphism, and encapsulation. The project also involved the design and creation of a captivating user interface, enhancing the overall gaming experience for players.</p>
+                <div class="resume-image">
+                    <img src="coding.avif" alt="Dhiraj Rishi Atmakuri's Resume" style="max-width:100%; height:auto;">
+                </div>
             </div>
 
             <div class="event">
                 <h3><a href="https://compass-ssb.tamu.edu/pls/PROD/bwckctlg.p_disp_course_detail?cat_term_in=201933&subj_code_in=CSCE&crse_numb_in=121" target="_blank">CSCE 121</a>: Seam Carving</h3>
                 <p>This was a C++ project and I used essential libraries including iostream, string, sstream, fstream, and cmath to implement dynamic memory management for creating, manipulating, and saving images in the P3 format. Leveraging advanced algorithms, I designed content-aware seam carving techniques to precisely identify and remove minimal energy seams, allowing for sophisticated image resizing and content-aware transformations. The project showcases not only technical expertise but also meticulous attention to detail, demonstrated through comprehensive error handling strategies that enhance the robustness and reliability of the entire image processing workflow.</p>
+                <div class="resume-image">
+                    <img src="seam.jpg" alt="Dhiraj Rishi Atmakuri's Resume" style="max-width:100%; height:auto;">
+                </div>
             </div>
         </div>
     </section>
+
+    <script src="functions.js"></script>
 </body>
 </html>

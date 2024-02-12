@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Activities - Dhiraj Rishi Atmakuri</title>
-    <link rel="stylesheet" href="background.css">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <title>Technical Portfolio - Dhiraj Rishi Atmakuri</title>
+    <link id="themeStyle" rel="stylesheet" href="background.css">
 </head>
-<body>
 
+<body>
     <header>
         <header>
             <nav>
-                <button onclick="location.href='Iteration1.html'">Landing Page</button>
+                <button onclick="location.href='index.html'">Landing Page</button>
                 <button onclick="location.href='technical.html'">Technical Portfolio</button>
                 <button onclick="location.href='Qualification.html'">Qualifications</button>
                 <button onclick="location.href='Service.html'">Service</button>
                 <button onclick="location.href='AIpage.html'">AI-Generated Page</button>
+                <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
             </nav>
-        </header> 
+        </header>
     </header>
 
     <section id="service">
@@ -26,12 +28,18 @@
                 <h3><a href="https://bigevent.tamu.edu/" target="_blank">Big Event</a></h3>
                 <p> The Big Event, an extraordinary initiative that I am eager to participate in as part of a project. Since its inception in 1982, The Big Event has grown into the nation's largest one-day, student-run service project, bringing together tens of thousands of Texas A&M students each spring to express gratitude to the residents of Bryan and College Station. This impactful event, which spans 37 years of tradition, involves students engaging in various service projects such as yard work, window washing, and painting for the local community. Through my involvement in this project, I hope to contribute to the promotion of campus and community unity, as students come together for a day of meaningful service. I am excited to mark March 23rd, 2024, on my calendar as the day I will actively participate in The Big Event.
                 </p>
+                <div class="image-container">
+                    <img src="bigevent.jpeg" alt="Volunteers at The Big Event" style="max-width:100%; height:auto;">
+                </div>
             </div>
             
             <div class="event">
                 <h3>Tennis Coach</h3>
                 <p>As a Tennis Coach, my commitment extends to providing comprehensive coaching to individuals of all skill levels, ranging from beginners to advanced players. My primary focus lies in coaching middle school and high school students, particularly during the summer as they prepare for tryouts. This service enables me to maintain a consistent level of involvement and engagement in the sport of tennis. The satisfaction derived from witnessing the progress and dedication of my students reinforces my passion for coaching, turning each session into a rewarding experience. In both volunteering at my local temple and coaching tennis, I find avenues to give back, learn, and contribute meaningfully to the communities I am part of.
                 </p>
+                <div class="image-container">
+                    <img src="tennis.jpeg" alt="Volunteers at The Big Event" style="max-width:100%; height:auto;">
+                </div>
             </div>
 
             <div class="event">
@@ -39,8 +47,13 @@
                 <p>
                     Volunteering at a local Temple has played a pivotal role in nurturing a profound connection with my religious beliefs. This experience offers a remarkable opportunity to actively engage with and contribute to the community. Serving at the temple not only keeps me grounded in my faith but also empowers me to collaborate and participate meaningfully, supporting the well-being of our community. Through these engagements, I have found a sense of purpose and fulfillment, deepening my understanding of the values that underpin my religious convictions.
                 </p>
+                <div class="image-container">
+                    <img src="temple.jpg" alt="Volunteers at The Big Event" style="max-width:100%; height:auto;">
+                </div>
             </div>
         </div>
     </section>
+
+    <script src="functions.js"></script>
 </body>
 </html>
